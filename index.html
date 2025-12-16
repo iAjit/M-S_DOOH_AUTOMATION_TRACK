@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJle284cf72ba8ad2b6ba85de5f0c440ef9"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJlf7420ab9559e2ad01ad57718805effba"/>
   <meta charset="utf-8">
   <meta name="generator" content="Google Web Designer 16.4.0.0711">
   <meta name="template" content="Banner 3.0.0">
@@ -257,7 +257,7 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
               .catch(error => {
                 console.error("Error fetching data:", error);
                 console.log("Error fectching the Feed URL - Displaying Fallback");
-                panettone_gateaux.style.opacity = 1;
+                roulade.style.opacity = 1;
                 new Image().src = "https://ad.doubleclick.net/ddm/trackimp/N815635.2402317BLIS/B34734569.435926394;dc_trk_aid=628695786;dc_trk_cid=246222971;ord=%n;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?";
                 vioohReady();
 
@@ -273,7 +273,8 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
               // 2. No products → fallback
               if (!matchingProducts || matchingProducts.length === 0) {
                 console.log("No products found for this Store ID - Displaying Fallback:", nearStoreID);
-                panettone_gateaux.style.opacity = 1;
+                roulade.style.opacity = 1;
+                new Image().src = "https://ad.doubleclick.net/ddm/trackimp/N815635.2402317BLIS/B34734569.435926394;dc_trk_aid=628695786;dc_trk_cid=246222971;ord=%n;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?";
                 vioohReady();
                 return;
               }
@@ -286,7 +287,8 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
               // 4. If no eligible products → fallback
               if (eligibleProducts.length === 0) {
                 console.log("No eligible products found - Displaying Fallback");
-                panettone_gateaux.style.opacity = 1;
+                roulade.style.opacity = 1;
+                new Image().src = "https://ad.doubleclick.net/ddm/trackimp/N815635.2402317BLIS/B34734569.435926394;dc_trk_aid=628695786;dc_trk_cid=246222971;ord=%n;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?";
                 vioohReady();
                 return;
               }
@@ -320,7 +322,7 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
             function showProductImage(productName) {
 
               resetAllImages(); // first hide all
-             // console.log('Product : ' + productName);
+              // console.log('Product : ' + productName);
 
               if (productName === "Blue Stilton") {
                 console.log('Blue Stilton : > ' + productName);
@@ -391,7 +393,7 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
 
           } else {
             console.log("Frame ID Details not found - Showing fallback");
-            panettone_gateaux.style.opacity = 1;
+            roulade.style.opacity = 1;
             new Image().src = "https://ad.doubleclick.net/ddm/trackimp/N815635.2402317BLIS/B34734569.435926394;dc_trk_aid=628695786;dc_trk_cid=246222971;ord=%n;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?";
             vioohReady();
           }
